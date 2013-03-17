@@ -1,4 +1,4 @@
-<p id="notice"><%= notice %></p>
+<p id="notice"><%=  %></p>
 
 <label><b>Recipe Name:</b></label><%= @recipe.name %><br>
 <label><b>Recipe Ingredients:</b></label><%= @recipe.ingredients.html_safe %><br>
@@ -6,31 +6,7 @@
 <br>
 
 <h2>Comments</h2>
-<% @recipe.comments.each do |comment| %>
-    <p>
-      <b>Commenter:</b>
-      <%= comment.commenter %>
-    </p>
-
-    <p>
-      <b>Comment:</b>
-      <%= comment.body %>
-    </p>
-<% end %>
+<%= render @recipe.comments %>
 
 <h2>Add a comment:</h2>
-<%= form_for([@recipe, @recipe.comments.build]) do |f| %>
-    <div class="field">
-      <%= f.label :commenter %>
-      <br/>
-      <%= f.text_field :commenter %>
-    </div>
-    <div class="field">
-      <%= f.label :body %>
-      <br/>
-      <%= f.text_area :body %>
-    </div>
-    <div class="actions">
-      <%= f.submit %>
-    </div>
-<% end %>
+<%= render "comments/form" %>

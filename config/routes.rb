@@ -3,6 +3,8 @@ FoodRecipeSite::Application.routes.draw do
   resource :recipes
   resource :categories
   resource :comments
+  match 'categories/:id' => 'categories#list'
+  match 'recipes/list' => 'recipes#list'
   match 'recipes/:id' => 'recipes#show'
   # The priority is based upon order of creation:
   # first created -> highest priority.

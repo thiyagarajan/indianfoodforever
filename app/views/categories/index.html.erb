@@ -1,5 +1,5 @@
 <h1>Category List</h1>
 
 <% @category.each do |cname| %>
-    <li><%= link_to cname.name, '#' %></li>
+    <li><%= link_to cname.name, :controller => 'categories', :action => 'list', :id=>cname.id %></li>
 <% end %>

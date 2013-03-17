@@ -25,12 +25,14 @@ results = doc.css('div.top-link a').map do |cname|
     #puts rece.content
     recipe1 = rece.attribute('href').to_s
     puts recipe1
-    doc2 = Nokogiri::HTML(open(recipe1))
-    results2 = doc2.css('body').map do |rece1|
-      ingredients = rece1.css('div.text')
-      description = rece1.css('ul')
-      #puts ingredients.inner_html
-      Recipe.create([category_id: i, name: rece.content, ingredients: ingredients.inner_html, description: description.inner_html])
+    unless recipe1 == "http://www.indianfoodforever.com/muhroom/"
+      doc2 = Nokogiri::HTML(open(recipe1))
+      results2 = doc2.css('body').map do |rece1|
+        ingredients = rece1.css('div.text')
+        description = rece1.css('ul')
+        #puts ingredients.inner_html
+        Recipe.create([category_id: i, name: rece.content, ingredients: ingredients.inner_html, description: description.inner_html])
+      end
     end
   end
   i=i+1

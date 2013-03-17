@@ -11,10 +11,13 @@ require 'open-uri'
 require 'pp'
 doc = Nokogiri::HTML(open('http://www.indianfoodforever.com/'))
 results = doc.css('div.top-link a').map do |cname|
-  #Category.create([name: cname.content])
+  Category.create([name: cname.content])
   recipe = cname.attribute('href').to_s
+  puts recipe
   doc1 = Nokogiri::HTML(open(recipe))
-  results1 = doc.css('div.mainlinks a').map do |rece|
+  #puts doc1
+  results1 = doc1.css('div.mainlinks a').map do |rece|
+    Recipe.create([name: rece.content])
     puts rece.content
   end
 end

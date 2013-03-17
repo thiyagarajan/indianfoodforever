@@ -20,8 +20,9 @@ ActiveRecord::Schema.define(:version => 20130316082921) do
   end
 
   create_table "comments", :force => true do |t|
+    t.string   "commenter"
+    t.text     "body"
     t.integer  "recipe_id"
-    t.string   "comment"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end

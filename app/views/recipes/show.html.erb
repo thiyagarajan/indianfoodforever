@@ -1,12 +1,18 @@
-<p id="notice"><%=  %></p>
+<dl class="dl-horizontal">
+  <dt>Recipe Name:</dt>
+  <dd><%= @recipe.name %></dd>
+  <dt>Recipe Ingredients:</dt>
+  <dd><%= @recipe.ingredients.html_safe %></dd>
+  <dt>Recipe Description:</dt>
+  <dd><%= @recipe.description.html_safe %></dd>
+</dl>
 
-<label><b>Recipe Name:</b></label><%= @recipe.name %><br>
-<label><b>Recipe Ingredients:</b></label><%= @recipe.ingredients.html_safe %><br>
-<label><b>Recipe Description:</b></label><%= @recipe.description.html_safe %>
-<br>
+<h3>Comments</h3>
+<% unless @recipe.comments.blank? %>
+    <%= render @recipe.comments %>
+<% else %>
+    No comments added!
+<% end %>
 
-<h2>Comments</h2>
-<%= render @recipe.comments %>
-
-<h2>Add a comment:</h2>
+<h3>Add a comment:</h3>
 <%= render "comments/form" %>

@@ -6,11 +6,11 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Gemfile" changelist="dbb2f54d-76a6-4b39-b4d9-9580b7cd6571" time="1363420253750" ignored="false" />
     <file path="/comment.rb" changelist="dbb2f54d-76a6-4b39-b4d9-9580b7cd6571" time="1363422671439" ignored="false" />
-    <file path="/recipe.rb" changelist="dbb2f54d-76a6-4b39-b4d9-9580b7cd6571" time="1363422704893" ignored="false" />
+    <file path="/recipe.rb" changelist="dbb2f54d-76a6-4b39-b4d9-9580b7cd6571" time="1363497438461" ignored="false" />
     <file path="/category.rb" changelist="dbb2f54d-76a6-4b39-b4d9-9580b7cd6571" time="1363422740861" ignored="false" />
     <file path="/categories_controller.rb" changelist="dbb2f54d-76a6-4b39-b4d9-9580b7cd6571" time="1363443273776" ignored="false" />
     <file path="/routes.rb" changelist="dbb2f54d-76a6-4b39-b4d9-9580b7cd6571" time="1363492079147" ignored="false" />
-    <file path="/seeds.rb" changelist="dbb2f54d-76a6-4b39-b4d9-9580b7cd6571" time="1363496536696" ignored="false" />
+    <file path="/seeds.rb" changelist="dbb2f54d-76a6-4b39-b4d9-9580b7cd6571" time="1363497233672" ignored="false" />
     <file path="/index.html.erb" changelist="dbb2f54d-76a6-4b39-b4d9-9580b7cd6571" time="1363443892605" ignored="false" />
     <file path="/20130315151550_create_recipes.rb" changelist="dbb2f54d-76a6-4b39-b4d9-9580b7cd6571" time="1363496299837" ignored="false" />
     <file path="/recipes_controller.rb" changelist="dbb2f54d-76a6-4b39-b4d9-9580b7cd6571" time="1363492930469" ignored="false" />
@@ -32,10 +32,28 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="seeds.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="seeds.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/seeds.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="19" selection-start="730" selection-end="730" vertical-scroll-proportion="0.5706714">
+            <state line="12" column="3" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recipe.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/recipe.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="32" selection-start="110" selection-end="110" vertical-scroll-proportion="0.09010601">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comment.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="18" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -54,7 +72,6 @@
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/models/comment.rb" />
-        <option value="$PROJECT_DIR$/app/models/recipe.rb" />
         <option value="$PROJECT_DIR$/app/models/category.rb" />
         <option value="$PROJECT_DIR$/app/controllers/categories_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/categories/index.html.erb" />
@@ -63,6 +80,7 @@
         <option value="$PROJECT_DIR$/app/controllers/recipes_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130316082921_create_comments.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130315151550_create_recipes.rb" />
+        <option value="$PROJECT_DIR$/app/models/recipe.rb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
       </list>
     </option>
@@ -186,6 +204,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodRecipeSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FoodRecipeSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -499,16 +535,6 @@
         <state line="18" column="17" selection-start="442" selection-end="442" vertical-scroll-proportion="0.11764706" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/recipe.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="22" selection-start="56" selection-end="56" vertical-scroll-proportion="0.03448276" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="14" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/category.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="19" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" />
@@ -584,7 +610,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="19" selection-start="730" selection-end="730" vertical-scroll-proportion="0.5706714">
+        <state line="12" column="3" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="18" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/recipe.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="32" selection-start="110" selection-end="110" vertical-scroll-proportion="0.09010601">
           <folding />
         </state>
       </provider>

@@ -5,7 +5,7 @@
     <ignored path="FoodRecipeSite.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Gemfile" changelist="dbb2f54d-76a6-4b39-b4d9-9580b7cd6571" time="1363420253750" ignored="false" />
-    <file path="/comment.rb" changelist="dbb2f54d-76a6-4b39-b4d9-9580b7cd6571" time="1363525184340" ignored="false" />
+    <file path="/comment.rb" changelist="dbb2f54d-76a6-4b39-b4d9-9580b7cd6571" time="1363526625096" ignored="false" />
     <file path="/recipe.rb" changelist="dbb2f54d-76a6-4b39-b4d9-9580b7cd6571" time="1363497438461" ignored="false" />
     <file path="/category.rb" changelist="dbb2f54d-76a6-4b39-b4d9-9580b7cd6571" time="1363422740861" ignored="false" />
     <file path="/categories_controller.rb" changelist="dbb2f54d-76a6-4b39-b4d9-9580b7cd6571" time="1363512445731" ignored="false" />
@@ -15,10 +15,11 @@
     <file path="/20130315151550_create_recipes.rb" changelist="dbb2f54d-76a6-4b39-b4d9-9580b7cd6571" time="1363496299837" ignored="false" />
     <file path="/recipes_controller.rb" changelist="dbb2f54d-76a6-4b39-b4d9-9580b7cd6571" time="1363509686610" ignored="false" />
     <file path="/20130316082921_create_comments.rb" changelist="dbb2f54d-76a6-4b39-b4d9-9580b7cd6571" time="1363496246244" ignored="false" />
-    <file path="/show.html.erb" changelist="dbb2f54d-76a6-4b39-b4d9-9580b7cd6571" time="1363525495032" ignored="false" />
+    <file path="/show.html.erb" changelist="dbb2f54d-76a6-4b39-b4d9-9580b7cd6571" time="1363525892943" ignored="false" />
     <file path="/application.html.erb" changelist="dbb2f54d-76a6-4b39-b4d9-9580b7cd6571" time="1363515245675" ignored="false" />
     <file path="/list.html.erb" changelist="dbb2f54d-76a6-4b39-b4d9-9580b7cd6571" time="1363512481423" ignored="false" />
     <file path="/comments_controller.rb" changelist="dbb2f54d-76a6-4b39-b4d9-9580b7cd6571" time="1363515562347" ignored="false" />
+    <file path="/_form.html.erb" changelist="dbb2f54d-76a6-4b39-b4d9-9580b7cd6571" time="1363526568965" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,10 +36,28 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/recipes/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
+            <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/comments/_form.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="78" selection-start="316" selection-end="316" vertical-scroll-proportion="0.3288201">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comment.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="50" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -66,10 +85,10 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/comments/_comment.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/comments/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/comment.rb" />
         <option value="$PROJECT_DIR$/app/controllers/comments_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/recipes/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/comments/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/comment.rb" />
       </list>
     </option>
   </component>
@@ -617,13 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/comments/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="348" selection-end="348" vertical-scroll-proportion="0.49323016">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/comments/_comment.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="4" selection-start="105" selection-end="105" vertical-scroll-proportion="0.2630561">
@@ -645,16 +657,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/recipes/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="38" selection-start="222" selection-end="222" vertical-scroll-proportion="0.15653776">
+        <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/recipes/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
+        <state line="3" column="50" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/comments/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="78" selection-start="316" selection-end="316" vertical-scroll-proportion="0.3288201">
           <folding />
         </state>
       </provider>
